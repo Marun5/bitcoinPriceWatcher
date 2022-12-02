@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc066bd-097d-4759-a9e6-de77228f3fb6" name="Changes" comment="Price, console and schedule done">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/Marcin/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/Marcin/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/Marcin/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/Marcin/Console.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/Marcin/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/Marcin/Price.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +65,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,7 +83,7 @@
       <workItem from="1669617734079" duration="42476000" />
       <workItem from="1669792585875" duration="321000" />
       <workItem from="1669792931339" duration="1466000" />
-      <workItem from="1669885378041" duration="1517000" />
+      <workItem from="1669885378041" duration="2544000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1669312345556</created>

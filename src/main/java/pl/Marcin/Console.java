@@ -31,6 +31,7 @@ public class Console {
                 case 'd' -> {
                     scanner.close();
                     System.out.println("See you soon :)");
+                    System.exit(0);
                 }
                 default -> System.out.println("Choose the correct option");
             }
