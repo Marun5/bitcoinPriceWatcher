@@ -1,6 +1,5 @@
 package pl.Marcin;
 
-
 public class App {
 
     public static void main(String[] args) {

@@ -26,12 +26,8 @@ public class Console {
                     }
                     schedule.timer.cancel();
                 }
-                case 'b' -> {
-                    pricesToWatch();
-                }
-                case 'c' -> {
-                    setMinMax();
-                }
+                case 'b' -> pricesToWatch();
+                case 'c' -> setMinMax();
                 case 'd' -> {
                     scanner.close();
                     System.out.println("See you soon :)");

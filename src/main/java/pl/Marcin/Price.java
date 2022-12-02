@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 
 public class Price {
 
-    private float price;
+    private float price = 0;
     private float min = 16455;
     private float max = 16466;
 
