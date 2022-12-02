@@ -10,35 +10,28 @@ import java.net.http.HttpResponse;
 import java.time.LocalDateTime;
 
 public class Price {
-
-    private float price = 0;
-    private float min = 16455;
-    private float max = 16466;
+    private float price;
+    private float min;
+    private float max;
 
     public float getPrice() {
         return price;
     }
-
     public void setPrice(float price) {
         this.price = price;
     }
-
     public float getMin() {
         return min;
     }
-
     public void setMin(float min) {
         this.min = min;
     }
-
     public float getMax() {
         return max;
     }
-
     public void setMax(float max) {
         this.max = max;
     }
-
     public Price() {
     }
 
@@ -58,6 +51,7 @@ public class Price {
         System.out.println(LocalDateTime.now());
         System.out.println("USD: "+getPrice()+"\n");
     }
+
     public boolean isHigher() {
         return getPrice() > getMax();
     }

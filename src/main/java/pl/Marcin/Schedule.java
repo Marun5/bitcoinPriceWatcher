@@ -7,8 +7,12 @@ import java.util.TimerTask;
 public class Schedule {
     private final int PERIOD = 1000*15;
     private final String BITCOIN_PRICE = "https://api.coindesk.com/v1/bpi/currentprice.json";
-    private final Price price = new Price();
+    private final Price price;
     public Timer timer;
+    public Schedule(Price price) {
+        this.price = price;
+    }
+
     public void launchTimer() {
         timer = new Timer();
 

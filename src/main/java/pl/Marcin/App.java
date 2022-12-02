@@ -6,6 +6,5 @@ public class App {
 
         Console console = new Console();
         console.menu();
-
     }
 }
